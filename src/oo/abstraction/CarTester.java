@@ -20,15 +20,16 @@ public class CarTester {
 	cars[1]= new Car("Ford" , 2000 , "focus", "Sedan" , 100) ;
 	cars[2]= new Car("BMW" , 1000 , "M140i", "Sedan" , 100) ;
 	
-	int i = 0;
-	 for ( i = 0 ; i<=2 ; i++){
-	System.out.println(cars[i].name);
+	
+	int i = 0 ;
+	for (i=0; i<3; i++){
+		System.out.println(cars[i].name);
 	}
-	 System.out.println(i);
-	 for ( i = 1 ; i<=9 ; i++){
-			System.out.println(i);
-			}
-	 System.out.println(i);
+	System.out.println(i);
+	for (i=1; i<=9; i=i+2){
+		System.out.println(i);
+	}
+	System.out.println(i);
 		
 	class AA {
 		

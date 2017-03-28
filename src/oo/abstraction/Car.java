@@ -6,6 +6,7 @@ public class Car {
 	String type;
 	int cc;
 	int status;
+	float milage;
 	
 	public Car(String brand, int cc, String name, String type, int status){
 		this.brand = brand;
@@ -15,4 +16,17 @@ public class Car {
 		this.status = status;
 	}
 
+	public void setmilage(int m){
+		milage = m;
+	}
+	
+	public float addmilage( int m ){
+		milage = milage + m;
+		return milage;
+	}
+	
+    public void maintain(){
+    	status = 5;
+    }
+	
 }
