@@ -28,6 +28,7 @@ public class Tester {
 		System.out.println(a);
 		String data = (String)a.get(3);
 		//int n = (int)a.get(4);
+		Student stu = new Student();
 	}
 
 }
