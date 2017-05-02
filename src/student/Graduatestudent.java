@@ -7,8 +7,10 @@ public class Graduatestudent extends Student{
 		this.English = English;
 		this.Math = Math;
 		this.Chinese = Chinese;
-		
-		
+	}
+		 public void print(){
+			 System.out.println(getScore(English)+ "\t" + getScore(Math)+ "\t" + getScore(Chinese));
+			 
 	}
 
 }
