@@ -3,12 +3,17 @@ package oo.test;
 import java.util.ArrayList;
 
 import oo.abstraction.Car;
+import student.Student;
 
 
 
 public class Tester {
 
 	public static void main(String[] args) {
+		
+		Student stu = new Student();
+		System.out.println(stu);
+		
 
 		Car c = new Car("XX" , 2000 , "name" , "type" ,2000 );
 		ArrayList a = new ArrayList();
@@ -28,7 +33,7 @@ public class Tester {
 		System.out.println(a);
 		String data = (String)a.get(3);
 		//int n = (int)a.get(4);
-		Student stu = new Student();
+		
 	}
 
 }

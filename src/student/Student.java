@@ -2,12 +2,14 @@ package student;
 
 public class Student {
 
+	
+	
  int English;
  int Math;
  int Chinese;
  static int pass = 60 ;
  
- Student(){
+  public Student(){
 	 
 	 
  }
@@ -33,6 +35,13 @@ public class Student {
     	 
      }
  
+     public String toString(){
+    	 return
+    			 "eng:" + English +"\n" +
+    	         "Chi:" + Chinese + "\n" +
+    	         "Math:" + Math;
+     }
+     
 	}
 
 
